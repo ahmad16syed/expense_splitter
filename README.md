@@ -1,17 +1,16 @@
-# expense_splitter
+# Expense Splitter
 
-A new Flutter project.
+A Flutter app for tracking shared trip expenses and calculating who owes whom.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Create trips with multiple members
+- Add, edit, and delete expenses, split among chosen members
+- Automatic settlement calculation
+- Edit trip name and members
+- Download a PDF report for each trip
+- Local storage with Hive
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter, Dart, BLoC (flutter_bloc), Hive, pdf, printing
